@@ -6,7 +6,6 @@ const findTheOldest = function(people) {
         let afterPersonAge= afterPerson.yearOfDeath -afterPerson.yearOfBirth;
 
         if (beforePersonAge > afterPersonAge) return -1;
-        else return 1;
     });
     return sortOldest[0];
 };
